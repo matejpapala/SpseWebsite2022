@@ -1,0 +1,642 @@
+/*resetovani defaultniho css at na vsech prohlizecich vypada stejne*/
+*{
+	scroll-behavior: smooth;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+	position: relative;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body::after{
+	content: '';
+	display: block;
+	height: 150px;
+}
+
+.bodyindex{
+    background-image: url(imgs/pexels-estudio-polaroid-3112004\ \(1\).jpg);
+}
+
+.bodydumbell{
+	background: linear-gradient(to right, #161616, black);
+}
+
+.bodybody{
+	background: linear-gradient(to right, #161616, black);
+}
+
+.bodybarbell{
+	background: linear-gradient(to right, #161616, black);
+}
+
+.bodycable{
+	background: linear-gradient(to right, #161616, black);
+}
+
+.bodycoming{
+	background: linear-gradient(to right, #161616, black);
+}
+
+.menua{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+	font-size: 42px;
+	font-family: 'Tiro Bangla', serif;
+}
+
+.menudumbell{
+	text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+	font-size: 64px;
+	font-family: 'Tiro Bangla', serif;
+}
+
+.menubody{
+	text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+	font-size: 64px;
+	font-family: 'Tiro Bangla', serif;
+}
+
+.menubarbell{
+	text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+	font-size: 64px;
+	font-family: 'Tiro Bangla', serif;
+}
+
+.menucable{
+	text-decoration: none;
+    color: rgba(255, 255, 255, 0.877);
+	font-size: 64px;
+	font-family: 'Tiro Bangla', serif;
+
+}
+
+.exercises_list{
+    display:inline-flex;
+}
+
+
+.pozadi{
+	top:0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	padding: 60px 161px 60px 161px;
+	transition: background-image 2s ease-out 100ms
+}
+
+.pozadidumbell{
+	top:0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	padding: 60px 150px 60px 150px;
+	transition: background-image 2s ease-out 100ms
+
+}
+
+.pozadibody{
+	top:0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	padding: 60px 146px 60px 146px;
+	transition: background-image 2s ease-out 100ms
+}
+
+.pozadibarbell{
+	top:0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	padding: 60px 152px 60px 152px;
+	transition: background-image 2s ease-out 100ms
+
+}
+
+.pozadicable{
+	top:0;
+	background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+	padding: 60px 154px 60px 154px;
+	transition: background-image 2s ease-out 100ms
+}
+
+.pozadibody:hover{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.pozadidumbell:hover{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.pozadi:hover{
+	/*text-shadow: 1px 1px rgba(255, 255, 255, 0.5);*/
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0));
+
+}
+
+.pozadicable:hover{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+}
+
+.h1body{
+	color: white;
+	font-size: 42px;
+	padding: 48px 0 0 0;
+}
+
+.wrapper {
+	margin-right: auto;
+	margin-left: auto;
+	max-width:1160px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border: 0px solid;
+	border-radius: 25px;
+}
+
+#nadpishlavni{
+	font-size: 64px;
+	font-family: 'Anton', sans-serif;
+	text-align: center;
+	color: aliceblue;
+	background-color: rgba(0, 0, 0, 1);
+	padding: 12px 0 8px 0;
+}
+
+.odkaznaindex{
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.pbody{
+	color: white;
+	font-size: 26px;
+	padding: 6px 0 6px 0;
+
+}
+
+.articlebody{
+	color: white;
+	font-size: 22px;
+	padding: 12px 0px 12px 0;
+}
+
+#pushup1{
+	width: 50%;
+}
+
+#pushup2{
+	width: 39%;
+	float: right;
+}
+
+#pullup{
+	width: 50%;
+}
+
+#dip{
+	width: 35%;
+}
+
+#chinup{
+	width: 50%;
+}
+
+#crunches{
+	width: 45%;
+}
+
+#squatbody{
+	width: 50%;
+	padding-bottom: 12px;
+}
+
+.image_shadow{
+	box-shadow: 2px 2px 10px 5px black;
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 150px;
+	/*background-color: black;*/
+	box-shadow: 2px 2px 10px 5px black;
+	background: linear-gradient(to right, #161616, black);
+}
+
+.footermain{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	font-size: 28px;
+}
+
+.footerfirst{
+	margin-top: 10px;
+	padding-left: 400px;
+	float: left;
+}
+
+.footerfirstarticle{
+	color: rgba(255, 255, 255, 0.795);
+	padding-top: 12px;
+	font-size: 18px;
+}
+
+#betough{
+	color: white;
+	font-size: 19px;
+	padding-top: 12px;
+}
+
+.footersecond{
+	float: left;
+	padding-left: 140px;
+}
+
+.footerupper{
+	color: white;
+	margin-top: 8px;
+	font-size: 20px;
+	padding-bottom: 14px;
+}
+
+.footertext{
+	padding-top: 8px;
+	max-width: 120px;
+}
+
+.footerlink{
+	color: rgba(255, 255, 255, 0.795);
+	text-decoration: none;
+}
+
+
+.footerupperthird{
+	color: white;
+
+}
+
+.footerthird{
+	float: left;
+	padding-left: 140px;
+}
+
+.footerfourth{
+	float:left;
+	padding-left: 140px;
+}
+
+
+.navbar{
+	background: #131313;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	position: sticky;
+	top: 0;
+	z-index: 999;
+}
+
+.navbar_container{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	z-index: 1;
+	width: 100%;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#navbar_logo{
+	/*background-color: #131313;
+	background-image: linear-gradient(to top, white 0% , #e4e4e4 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;*/
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: 38px;
+	font-family: 'Anton', sans-serif;
+	color: white;
+}
+
+.navbar_menu{
+	display: flex;
+	align-items: center;
+	list-style: none;
+
+}
+
+.navbar_item{
+	height: 80px;
+
+}
+
+.navbar_link{
+	color: white;
+	display: flex;
+	align-items: center;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+	text-decoration: none;
+	height: 100%;
+	font-size: 1.4rem;
+}
+
+.navbar_link:hover{
+	color:black;
+	background-color: #929292;
+	transition: all 0.4s ease;
+}
+
+.main{
+	background: black;
+	background: linear-gradient(to right, #161616, black);
+}
+
+.main_container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1200px;
+	margin:0 auto;
+	height: 100%;
+	text-align: center;
+	padding:90px;
+}
+
+.main_heading{
+	font-size: 100px;
+	margin-bottom: 24px;
+	color: whitesmoke;
+	line-height: 148px;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main_heading span{
+	font-size: 120px;
+	color: white;
+	font-family: 'Anton', sans-serif;
+}
+
+.main_description{
+	font-size: 60px;
+	color: rgb(189, 189, 189);
+	font-family: 'Kumbh Sans', sans-serif;
+	padding-bottom: 22px;
+}
+
+.highlight{
+	border-bottom: 4px solid rgb(54, 54, 54);
+}
+
+
+.main_about{
+	background-color: #131313;
+	padding: 160px 0;
+}
+
+.main_about_container{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+	height: 90%;
+	z-index: 1;
+	width: 100%;
+	max-width: 1300px;
+	padding: 0 50px;
+}
+
+.main_about_content{
+	color: white;
+	width: 100%;
+	font-family: 'Kumbh Sans', sans-serif;
+	font-size: 1.2rem;
+}
+
+.main_about_content h1{
+	font-size: 3rem;
+	line-height: 72px;
+	font-family: 'Anton', sans-serif;
+}
+
+.main_about_content  h2{
+	font-size: 2.3rem;
+}
+
+.main_about_content p{
+	line-height: 72px;
+}
+
+.main_button{
+	background: #131313;
+	background: -webkit-linear-gradient(to top, #131313, rgb(10, 10, 10));
+	background: linear-gradient(to top, #131313, rgb(10, 10, 10));;
+	padding: 20px 60px;
+	cursor: pointer;
+	outline: none;
+	transition: all 0.3 ease;
+	position: relative;
+}
+
+.main_button a{
+	font-size: 2rem;
+	text-decoration: none;
+	background-color: #131313;
+	background-image: linear-gradient(to top, white 0% , #e4e4e4 100%);
+	background-size: 100%;
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.main_img_container{
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.main_about_card{
+	margin: 10px;
+	height: 600px;
+	width: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#logoimg{
+	box-shadow: 2px 2px 10px 5px black;
+}
+
+.workouts{
+	background: #131313;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	padding: 10rem 0;
+}
+
+.workouts h1{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	margin-bottom: 6rem;
+	font-size: 3.5rem;
+}
+
+.workouts_wrapper{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr;
+
+}
+
+.workouts_card{
+	margin: 10px;
+	height: 480px;
+	width: 500px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	background-image: linear-gradient(to right, rgb(70, 70, 70), black);
+	box-shadow: 2px 2px 10px 5px black;
+	transition: 0.3s ease-in;
+}
+
+.workouts_card h2{
+	text-align: center;
+}
+
+.workouts_card p{
+	text-align: center;
+	margin-top: 24px;
+	font-size: 1.5rem;
+}
+
+.workouts_button{
+	display: flex;
+	justify-content: center;
+	margin-top: 1rem;
+}
+
+.workouts_card button{
+	color: white;
+	padding: 14px 24px;
+	border: none;
+	outline: none;
+	border-radius: 4px;
+	background: #131313;
+	font-size: 1.2rem;
+}
+
+.workouts_card button:hover{
+	cursor: pointer;
+}
+
+.workouts_card:hover{
+	transform: scale(1.075);
+	transition: 0.3 ease-in;
+	cursor: pointer;
+}
+
+.workouts_card h2{
+	text-align: center;
+	font-size: 2.4rem;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+#copyright{
+	color: white;
+	opacity: 0.8;
+
+}
+
+.copyright{
+	float: right;
+	margin: 120px 0 10px 0;
+	padding-right: 16px;
+}
+
+.kys{
+	text-decoration: none;
+	color: white;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	margin: 231px 0;
+}
+
+.content h1{
+	color: white;
+	font-size: 4rem;
+	padding: 34px 0;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.content p{
+	color: white;
+	font-size: 2rem;
+	padding: 12px 0;
+}
+
+.konec{
+	display: none;
+}
